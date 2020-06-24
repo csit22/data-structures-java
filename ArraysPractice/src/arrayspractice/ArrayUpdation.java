@@ -12,7 +12,7 @@ public class ArrayUpdation {
 		arr[4]=50;
 		
 		int n=5;
-		int pos = 0;
+		int pos = 3;
 		int ele = 44;
 		
 		System.out.println("Array Before Updation");

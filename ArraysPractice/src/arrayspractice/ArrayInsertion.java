@@ -12,7 +12,6 @@ public class ArrayInsertion {
 		arr[3] = 40;
 		arr[4] = 50;
 		
-
 		int n = 7;
 
 		int pos = 1;
@@ -33,14 +32,9 @@ public class ArrayInsertion {
 			return;
 		}
 
-		//n=5,pos=3
-//		i=5,i=3
 		for (int i = n; i >= pos; i--)
 			arr[i] = arr[i - 1];
 
-		//arr[5]=arr[4]
-		//arr[4]=arr[3]
-		//arr[3]=arr[2]
 		arr[pos - 1] = ele;
 		n++;
 

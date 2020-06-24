@@ -12,7 +12,7 @@ public class ArrayDeletion {
 		arr[4]=50;
 		
 		int n = 5;
-		int pos = 6;	
+		int pos = 3;	
 		
 		System.out.println("Array Before Deletion");
 		for(int i=0;i<n;i++)
@@ -22,13 +22,9 @@ public class ArrayDeletion {
 			System.out.println("Element cannot be deleted.Position not valid.");
 			return;
 		}
-		//i=2, i=4
-		
+	
 		for(int i=pos-1;i<n-1;i++)
 			arr[i] = arr[i+1];  
-		
-		//arr[2]=arr[3]
-		//arr[3]=arr[4]
 		n--;
 		
 		System.out.println("Array After  Deletion");
