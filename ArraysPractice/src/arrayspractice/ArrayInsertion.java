@@ -12,7 +12,7 @@ public class ArrayInsertion {
 		arr[3] = 40;
 		arr[4] = 50;
 		
-		int n = 7;
+		int n = 5;
 
 		int pos = 1;
 		int ele = 44;
